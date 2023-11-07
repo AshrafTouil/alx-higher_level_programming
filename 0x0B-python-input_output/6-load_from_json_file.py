@@ -1,4 +1,3 @@
-4-from_json_string.py
 #!/usr/bin/python3
 """Defines a JSON file-reading function."""
 import json
