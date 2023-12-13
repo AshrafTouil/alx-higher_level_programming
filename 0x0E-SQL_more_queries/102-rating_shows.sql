@@ -5,6 +5,7 @@
 -- The database name will be passed as an argument of the mysql command
 
 SELECT title, SUM(rating) AS rating_sum
-FROM tv_shows
+FROM tvshows
 GROUP BY title
 ORDER BY rating_sum DESC;
+
